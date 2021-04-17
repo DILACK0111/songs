@@ -17,7 +17,7 @@ $(document).ready(function () {
         });
 
     });
-    SC.stream('/tracks/6244360', function (sound) {
+    SC.stream('/playlists/2583573', function (sound) {
 
         $('#start1').click(function (e) {
             e.preventDefault();
@@ -30,7 +30,7 @@ $(document).ready(function () {
         });
 
     });
-    SC.stream('/tracks/62442359', function (sound) {
+    SC.stream('/playlists/2583573', function (sound) {
 
         $('#start2').click(function (e) {
             e.preventDefault();
@@ -43,7 +43,7 @@ $(document).ready(function () {
         });
 
     });
-    SC.stream('/tracks/85837243', function (sound) {
+    SC.stream('/playlists/2583573', function (sound) {
 
         $('#start3').click(function (e) {
             e.preventDefault();
