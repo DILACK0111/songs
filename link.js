@@ -6,12 +6,12 @@ $(document).ready(function () {
 
     SC.stream('/tracks/191214159', function (sound) {
 
-        $('#start').click(function (e) {
+        $('#sta1').click(function (e) {
             e.preventDefault();
             sound.start();
         });
 
-        $('#stop').click(function (e) {
+        $('#sto1').click(function (e) {
             e.preventDefault();
             sound.stop();
         });
